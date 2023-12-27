@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+.logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 50px;
+    margin-left: 50px;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo a:hover{
+    background: #959191;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-width: auto;
+}
+.navBar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    float: right;
+    list-style: none;
+}
+.navBar li{
+    display: inline-block;
+}
+.navBar li a{
+    padding: 15px;
+}
+.navBar li a:hover{
+    background: #959191;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-width: auto;
+}
+.carousel-item{
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    filter: brightness(80%);
+}
+.box{
+    background:#2020207e;
+    width: 100%;
+    padding: 25px;
+}
+
+.box p{
+    text-align: justify;
+}
+#videoStart{
+    text-align: center;
+}
